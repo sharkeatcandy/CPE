@@ -1,3 +1,6 @@
+/*
+輸入一數字，判斷其能否被11整除並輸出結果
+*/
 #include <iostream>
 
 using namespace std;
