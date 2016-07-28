@@ -13,6 +13,7 @@ int main()
    int la,lb;//宣告位數
    int number;//宣告相同位數
    int max;//宣告最後位數
+   for(int i=0;i<12;i++)a[i]=b[i]=0;
    while(cin>>a>>b)//當輸入變數時執行下列函式
    {
     if(a[0]=='0' && b[0]=='0')break;//當兩數字皆為0時停止函式
