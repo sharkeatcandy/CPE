@@ -25,7 +25,7 @@ int main()
        count=cycle(i);//將數字丟進循環函式，將步驟存進計數函數
        if(count>number)number=count;//將最多步驟數存進number變數
     }
-   cout<<number<<endl;//輸出最多步驟
+   cout<<x<<" "<<y<<" "<<number<<endl;//輸出範圍及最多步驟
    }
    return 0;
 }
@@ -36,4 +36,3 @@ int cycle(int n)
     if(n%2!=0 && n!=1){n=n*3+1;return 1+cycle(n);}//當數字是奇數時步驟數+1，數字乘3加1後繼續循環
     if(n%2==0 && n!=1){n=n/2;return 1+cycle(n);}//當數字是偶數時步驟數+1，數字除2後繼續循環
 }
-
